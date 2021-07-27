@@ -14,7 +14,7 @@ Usage of ./OXID:
     	timeout on connection, in seconds (default 2ns)
 
 ./OXID -i 192.168.1.1
-./OXID -i 192.168.1.1/24
+./OXID -n 192.168.1.1/24
 ```
 
 > 很久之前练习写的工具
