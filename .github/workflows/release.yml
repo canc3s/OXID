@@ -5,8 +5,8 @@ on:
     branches:
       - 'release**'
       - 'main'
-  release:
-    types: [ published ]
+#  release:
+#    types: [ published ]
 
 permissions:
   contents: read
