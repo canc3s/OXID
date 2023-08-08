@@ -69,3 +69,5 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: target/*
+          tag_name: ${{ github.ref }}
+
